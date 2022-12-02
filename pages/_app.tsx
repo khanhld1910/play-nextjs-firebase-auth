@@ -1,6 +1,8 @@
-import '../styles/globals.css'
+import { useEffect } from 'react'
+import firebaseui from 'firebaseui'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import '../styles/globals.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
 
